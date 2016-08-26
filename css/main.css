@@ -1,0 +1,36 @@
+/* Inserta tu CSS aqui */
+
+.invisible{
+	position: relative;
+}
+.box{
+	float: left;
+	width: 200px;
+	height: 400px;
+	border: 1px solid #807A7A;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 5px;
+	background-color: #EDE8E8;
+
+}
+span{
+	font-size: 40px;
+	color: #6D6A6A;
+}
+h1{
+	font-family: "pacifico", cursive;
+	color: #6D6A6A;
+}
+p{
+	font-family: "pacifico", cursive;
+	color: #908E8E;
+}
+.box:hover{
+    transform: scale(1.1);
+    transition:-duration: 1s;
+    opacity: 0.5;
+}
